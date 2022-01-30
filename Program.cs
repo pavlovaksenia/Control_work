@@ -3,32 +3,32 @@ int number = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите элементы массива: ");
 string[] array = new string[number];
-for (int i = 0; i < number; i++)
+for (int value = 0; value < number; value++)
 {
-    Console.Write(i + 1 + ". ");
-    array[i] = Console.ReadLine();
+    Console.Write(value + 1 + ". ");
+    array[value] = Console.ReadLine();
 }
 
 string[] newArray = new string[number];
-int j = 0;
+int new_value = 0;
 
-for (var i = 0; i < number; i++)
+for (var value = 0; value < number; value++)
 {
-    if (array[i].Length < 4 && array[i].Length > 0)
+    if (array[value].Length < 4 && array[value].Length > 0)
     {
-        newArray[j] = array[i];
-        j++;
+        newArray[new_value] = array[value];
+        new_value++;
     }
 }
 
-Array.Resize(ref newArray, j);
+Array.Resize(ref newArray, new_value);
 
 if (newArray.Length > 0)
 {
     Console.WriteLine("Новый массив: ");
-    for (var i = 0; i < newArray.Length; i++)
+    for (var value = 0; value < newArray.Length; value++)
     {
-        Console.WriteLine(i + 1 + ". " + newArray[i]);
+        Console.WriteLine(value + 1 + ". " + newArray[value]);
     }
 }
 else
