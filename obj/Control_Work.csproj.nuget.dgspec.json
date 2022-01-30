@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tayler\\Desktop\\Control_work\\Control_Work\\Control_Work.csproj": {}
+    "C:\\Users\\Tayler\\Desktop\\Новая папка (3)\\Control_work\\Control_Work.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tayler\\Desktop\\Control_work\\Control_Work\\Control_Work.csproj": {
+    "C:\\Users\\Tayler\\Desktop\\Новая папка (3)\\Control_work\\Control_Work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tayler\\Desktop\\Control_work\\Control_Work\\Control_Work.csproj",
+        "projectUniqueName": "C:\\Users\\Tayler\\Desktop\\Новая папка (3)\\Control_work\\Control_Work.csproj",
         "projectName": "Control_Work",
-        "projectPath": "C:\\Users\\Tayler\\Desktop\\Control_work\\Control_Work\\Control_Work.csproj",
+        "projectPath": "C:\\Users\\Tayler\\Desktop\\Новая папка (3)\\Control_work\\Control_Work.csproj",
         "packagesPath": "C:\\Users\\Tayler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tayler\\Desktop\\Control_work\\Control_Work\\obj\\",
+        "outputPath": "C:\\Users\\Tayler\\Desktop\\Новая папка (3)\\Control_work\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tayler\\AppData\\Roaming\\NuGet\\NuGet.Config",
